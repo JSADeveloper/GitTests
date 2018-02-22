@@ -7,4 +7,5 @@
     <c:PageHeader title="Race Tracker Version 2" />
     <c:NewRaceV2 />
     <c:ListRacesV2 />
+
 </aura:application>
