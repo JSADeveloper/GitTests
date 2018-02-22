@@ -1,0 +1,25 @@
+<aura:component controller="RaceController">
+    <aura:attribute name="race" type="Race__c" />
+
+    <lightning:card title="{!v.race.Name}">
+        <section class="slds-card__body slds-card__body_inner">
+            <div class="slds-tile slds-hint-parent">
+                <p class="slds-tile__title slds-truncate">Race Type:
+                    <ui:outputText value="{!v.race.Type__c}" />
+                </p>
+                <p class="slds-truncate">Location:
+                    <ui:outputText value="{!v.race.Location__c}"/>
+                </p>
+                <p class="slds-truncate">Date/Time:
+                    <ui:outputDateTime value="{!v.race.DateTime__c}" />
+                </p>
+                <p class="slds-truncate">Attended?
+                    <ui:inputCheckbox change="{!c.handleUpdate}" value="{!v.race.Attended__c}" />
+                </p>
+                <p class="slds-truncate">Results:
+                    <ui:inputTextArea change="{!c.handleUpdate}" value="{!v.race.Results__c}"/>
+                </p>
+            </div>
+        </section>
+    </lightning:card>
+</aura:component>

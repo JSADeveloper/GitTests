@@ -1,0 +1,62 @@
+<!--
+ - Created by joshuastigall on 2017-11-24.
+ -->
+
+<apex:page id="Trailhead_SLDS_Basic" showHeader="false" standardStylesheets="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0">
+
+        <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en">
+        <head>
+            <meta charset="utf-8" />
+            <meta http-equiv="x-ua-compatible" content="ie=edge" />
+            <title>Salesforce Lightning Design System Trailhead Module</title>
+            <meta name="viewport" content="width-device-width, initial-scale=1" />
+
+            <!-- Import the Design System style sheet -->
+            <apex:slds />
+        </head>
+        <body>
+
+        <!-- REQUIRED SLDS WRAPPER -->
+        <div class="slds-scope" >
+
+            <!-- MASTHEAD -->
+            <p class="slds-text-heading_label slds-m-bottom_large">
+                Salesforce Lightning Design System Trailhead Module
+            </p>
+            <!-- / END MASTHEAD-->
+
+            <!-- PRIMARY CONTENT WRAPPER -->
+            <div class="myapp">
+
+                <!-- SECTION - BADGE COMPONENTS -->
+                <section aria-labelledby="badges">
+                    <h2 id="badges" class="slds-text-heading_large slds-m-vertical_large">Badges</h2>
+                    <div>
+                        <span class="slds-badge">badge</span>
+                        <span class="slds-badge slds-theme--inverse">badge</span>
+                    </div>
+                </section>
+                <!-- / END SECTION - BADGE COMPONENTS -->
+
+                <!-- TESTING THE GRID LAYOUT -->
+                <section>
+                    <div class="slds-grid">
+                        <div class="slds-col slds-text-heading--large slds-m-vertical--large">Test 1</div>
+                        <div class="slds-col slds-text-heading--large slds-m-vertical--large">Test 2</div>
+                        <div class="slds-col slds-text-heading--large slds-m-vertical--large">Test 3</div>
+                        <div class="slds-col slds-text-heading--large slds-m-vertical--large">Test 4</div>
+                        <div class="slds-col slds-text-heading--large slds-m-around--card-wrapper-spacing">Test 5</div>
+                    </div>
+                </section>
+                <!-- / END TESTING THE GRID LAYOUT -->
+
+            </div>
+            <!-- / END PRIMARY CONTENT WRAPPER -->
+
+        </div>
+        <!-- / END REQUIRED SLDS WRAPPER -->
+
+        </body>
+        </html>
+
+    </apex:page>
