@@ -8,4 +8,5 @@
     <c:NewRaceV2 />
     <c:ListRacesV2 />
 <!--Change made on February 23 to test-->
+    <!--This is from the Git repo in the /Users/joshuastigall/GitTests folder -->
 </aura:application>
